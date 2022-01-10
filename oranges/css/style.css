@@ -1,0 +1,43 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+body {
+	background: url('https://english.mathrubhumi.com/polopoly_fs/1.3608431.1581858547!/image/image.jpg_gen/derivatives/landscape_894_577/image.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+#container {
+	background: #F9D371;
+	width:  400px;
+	color: blue;
+	padding: 13px;
+	font-family: Licorice;
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+}
+h2 {
+	background: orange;
+	color: #8843F2;
+	padding: 5px;
+	border-radius: 5px;
+}
+a {
+	color: #green;
+	text-decoration: none;
+}
